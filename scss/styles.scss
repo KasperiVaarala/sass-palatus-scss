@@ -1,0 +1,68 @@
+$primaryColor: #ff0066;
+$secondaryColor: black;
+
+@mixin header-text{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem;
+}
+
+@mixin footer{
+    background-color: $secondaryColor;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: $primaryColor;
+    text-align: center;
+
+}
+
+html{
+    background-color: $primaryColor;
+}
+
+p, h5, footer {
+    text-align: center;
+}
+
+
+
+.navbar{
+    background-color: $secondaryColor;
+}
+
+body{
+    background-color: $primaryColor;
+    h1{
+        @include header-text()
+    }
+    h5{
+        font-weight: bold;
+    }
+}
+h5 ~ .selitys{
+    font-style: italic;
+}
+
+.btn-dark{
+    margin-left: 47%;
+    padding: 20px;
+    color: $primaryColor;
+ background-color: $secondaryColor;
+  box-shadow: 0 5px rgb(197, 9, 103);
+  transform: translateY(4 px);
+}
+
+
+footer{
+    @include footer()
+}
+
+
+
+
+
+
+
+

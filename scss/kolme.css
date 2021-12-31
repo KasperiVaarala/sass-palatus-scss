@@ -1,0 +1,47 @@
+.navbar {
+  background-color: black;
+}
+
+html {
+  background-color: #ff0066;
+}
+
+body {
+  background-color: #ff0066;
+}
+
+body h1 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 4rem;
+}
+
+body .info {
+  text-align: center;
+}
+
+body .carousel {
+  height: 600px;
+}
+
+body .carousel-item,
+body .carousel-inner,
+body .carousel-inner img {
+  height: 100%;
+  width: auto;
+  padding-left: 75px;
+}
+
+body p {
+  color: black;
+}
+
+footer {
+  background-color: black;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #ff0066;
+  text-align: center;
+}
+/*# sourceMappingURL=kolme.css.map */

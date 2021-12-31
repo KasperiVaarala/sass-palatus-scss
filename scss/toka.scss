@@ -1,0 +1,47 @@
+$primaryColor: #ff0066;
+$secondaryColor: black;
+
+@mixin header-text{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4rem;
+}
+
+@mixin footer{
+    background-color: $secondaryColor;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: $primaryColor;
+    text-align: center;
+}
+
+html{
+    background-color: $primaryColor;
+}
+
+.navbar{
+    background-color: $secondaryColor;
+}
+
+body{
+    background-color: $primaryColor;
+    h1{
+        @include header-text
+           }
+
+.h-brandi{
+    text-align: center;
+
+}
+.accordion-body, .accordion-button, .accordion-collapse {
+    background-color: $secondaryColor;
+    color: $primaryColor; 
+}
+
+}
+
+footer{
+  @include footer()
+}

@@ -1,0 +1,41 @@
+html, h1, body {
+    background-color: #ff0066;
+}
+
+h1{
+    text-align: center;
+    font-size: 5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar{
+    background-color: black;
+}
+
+
+.kaupat{
+    text-align: center;
+}
+
+.text{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-dark{
+    margin-left: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #ff0066;
+    display: flex;
+}
+
+footer{
+    background-color: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #ff0066;
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+.navbar {
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 4rem;
+}
+
+html {
+  background-color: #ff0066;
+}
+
+body {
+  background-color: #ff0066;
+}
+
+.btn-dark {
+  margin-left: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #ff0066;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.text {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kaupat {
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #ff0066;
+  text-align: center;
+}
+/*# sourceMappingURL=neljä.css.map */

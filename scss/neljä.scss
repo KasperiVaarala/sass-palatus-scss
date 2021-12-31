@@ -1,0 +1,55 @@
+$primaryColor: #ff0066;
+$secondaryColor: black;
+
+@mixin header-text{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4rem;
+}
+
+@mixin footer{
+    background-color: $secondaryColor;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: $primaryColor;
+    text-align: center;
+}
+
+.navbar{
+    background-color: $secondaryColor;
+}
+
+h1{
+    @include header-text()
+}
+
+html{
+    background-color: $primaryColor;
+}
+
+body{
+    background-color: $primaryColor;
+}
+
+.btn-dark{
+    margin-left: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #ff0066;
+    display: flex;
+}
+
+.text{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kaupat{
+    text-align: center;
+}
+
+footer{
+    @include footer()
+}
